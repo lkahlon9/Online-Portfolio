@@ -5,27 +5,32 @@ body {
 h1 {
   font-family: 'Sacramento', cursive;
   font-size: 6.5rem;
-  color: #655c56;
+  color: #151515;
 }
 
 h2 {
   font-family: 'Merriweather', serif;
   font-size: 1.87rem;
-  color: #655c56;
+  color: #151515;
   margin-bottom: 6.25rem;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: #655c56;
+  color: #D8B9C3;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
 
 h4 {
-  color: #94d3ac;
+  color: #827397;
   font-family: 'Merriweather', serif;
   text-align: center;
+}
+
+em {
+  color: #FFF5DA;
+  font-style: normal;
 }
 
 .subtitle {
@@ -45,7 +50,7 @@ h4 {
 hr {
   border-style: none;
   border-top-style: dotted;
-  border-color: #655c56;
+  border-color: #827397;
   border-width: 5px;
   width: 5%;
 }
@@ -90,17 +95,17 @@ hr {
 
 .top-container {
   position: relative;
-  background-color: #effcef;
+  background-color: #151515;
 }
 
 .middle-container {
-  background-color: #effcef;
+  background-color: #151515;
 }
 
 .h2-middle {
   font-family: 'Merriweather', serif;
   text-align: center;
-  color: #655c56;
+  color: #D8B9C3;
   margin-top: 0;
 }
 
@@ -119,12 +124,12 @@ hr {
   margin-right: auto;
   line-height: 2;
   text-align: center;
-  color: #655c56;
+  color: #D8B9C3;
 }
 
 p {
   font-family: 'Archivo', sans-serif;
-  color: #655c56;
+  color: #D8B9C3;
 }
 
 .projects {
@@ -147,13 +152,13 @@ p {
 }
 
 .project-link {
-  background-color: #ccedd2;
+  background-color: #4D4C7D;
   padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-family: 'Archivo', sans-serif;
-  color: #655c56;
+  color: #D8B9C3;
   box-sizing: border-box;
   border-radius: 4px;
 }
@@ -183,13 +188,13 @@ p {
 }
 
 .resume {
-    background-color: #ccedd2;
+    background-color: #4D4C7D;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-family: 'Archivo', sans-serif;
-    color: #655c56;
+    color: #D8B9C3;
     margin-top: 3rem;
     margin-bottom: 5.25rem;
     border-radius: 4px;
@@ -213,7 +218,7 @@ p {
 
 .email-link {
   font-family: 'Archivo', sans-serif;
-  color: #655c56;
+  color: #D8B9C3;
 }
 
 .send {
@@ -224,7 +229,7 @@ p {
 
 label {
   font-family: 'Archivo', sans-serif;
-  color: #655c56;
+  color: #D8B9C3;
 }
 
 input[type=text], input[type=email] {
@@ -233,10 +238,10 @@ input[type=text], input[type=email] {
   box-sizing: border-box;
   margin: 8px 0;
   border-radius: 4px;
-  color: #655c56;
+  color: #D8B9C3;
   font-family: 'Archivo', sans-serif;
   outline: none;
-  background-color: #ccedd2;
+  background-color: #4D4C7D;
   font-size: 14px;
   border: none;
 }
@@ -248,19 +253,19 @@ textarea {
   box-sizing: border-box;
   border-radius: 4px;
   margin: 8px 0;
-  color: #655c56;
+  color: #D8B9C3;
   font-family: 'Archivo', sans-serif;
   outline: none;
   resize: none;
-  background-color: #ccedd2;
+  background-color: #4D4C7D;
   font-size: 14px;
   border: none;
 }
 
 input[type=submit] {
-  background-color: #ccedd2;
+  background-color: #4D4C7D;
   border: none;
-  color: #655c56;
+  color: #D8B9C3;
   font-family: 'Archivo', sans-serif;
   padding: 16px 32px;
   text-decoration: none;
@@ -272,27 +277,23 @@ input[type=submit] {
 }
 
 .bottom-container {
-  background-color: #655c56;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  background-color: #827397;
+  padding-top: 14px;
+  padding-bottom: 12px;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .footer {
   font-family: 'Archivo', sans-serif;
-  color: #ccedd2;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  text-align: right;
+  color: #151515;
+  display: inline-block;
 }
 
 .github {
   height: 20px;
   width: 20px;
-  padding-top: 0.85rem;
-  float: right;
-  margin-right: 39%;
-  margin-left: 10px;
+  margin-left: 7px;
+  margin-bottom: -2px;
 }
