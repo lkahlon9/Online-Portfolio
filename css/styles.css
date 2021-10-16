@@ -29,8 +29,9 @@ h4 {
 }
 
 em {
-  color: #FFF5DA;
   font-style: normal;
+  font-weight: 600;
+  color: #FFF5DA;
 }
 
 .subtitle {
